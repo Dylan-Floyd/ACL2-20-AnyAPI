@@ -8,25 +8,25 @@ CREATE TABLE animals (
   kingdom VARCHAR(256) NOT NULL,
   phylum VARCHAR(256) NOT NULL,
   animal_class VARCHAR(256) NOT NULL,
-  order VARCHAR(256) NOT NULL,
+  animal_order VARCHAR(256) NOT NULL,
   suborder VARCHAR(256) NOT NULL,
   family VARCHAR(256) NOT NULL,
   subfamily VARCHAR(256) NOT NULL,
-  genus VARCHAR(256) NOT NULL
-  species VARCHAR(256) NOT NULL,
+  genus VARCHAR(256) NOT NULL,
+  species VARCHAR(256) NOT NULL
 );
 
-INSERT INTO animals (animal_name, species, kingdom, phylum, animal_class, order, suborder, family, subfamily, genus)
+INSERT INTO animals (animal_name, kingdom, phylum, animal_class, animal_order, suborder, family, subfamily, genus, species)
 VALUES ('Lion', 'Animalia', 'Chordata', 'Mammalia', 'Carnivora', 'Feliformia', 'Felidae', 'Pantherinae', 'Panthera', 'Panthera leo');
 
-INSERT INTO animals (animal_name, species, kingdom, phylum, animal_class, order, suborder, family, subfamily, genus)
+INSERT INTO animals (animal_name, kingdom, phylum, animal_class, animal_order, suborder, family, subfamily, genus, species)
 VALUES ('Tiger', 'Animalia', 'Chordata', 'Mammalia', 'Carnivora', 'Feliformia', 'Felidae', 'Pantherinae', 'Panthera', 'Panthera tigris');
 
-INSERT INTO animals (animal_name, species, kingdom, phylum, animal_class, order, suborder, family, subfamily, genus)
+INSERT INTO animals (animal_name, kingdom, phylum, animal_class, animal_order, suborder, family, subfamily, genus, species)
 VALUES ('Leopard', 'Animalia', 'Chordata', 'Mammalia', 'Carnivora', 'Feliformia', 'Felidae', 'Pantherinae', 'Panthera', 'Panthera pardus');
 
-INSERT INTO animals (animal_name, species, kingdom, phylum, animal_class, order, suborder, family, subfamily, genus)
+INSERT INTO animals (animal_name, kingdom, phylum, animal_class, animal_order, suborder, family, subfamily, genus, species)
 VALUES ('Snow Leopard', 'Animalia', 'Chordata', 'Mammalia', 'Carnivora', 'Feliformia', 'Felidae', 'Pantherinae', 'Panthera', 'Panthera uncia');
 
-INSERT INTO animals (animal_name, species, kingdom, phylum, animal_class, order, suborder, family, subfamily, genus)
-VALUES ('Aldabra giant tortoise', 'Animalia', 'Chordata', 'Reptilia', 'Testudines', 'Cryptodira', 'Testudinoidea', 'Testudinidae', 'Aldabrachelys', 'Aldabrachelys Gigantea');
+INSERT INTO animals (animal_name, kingdom, phylum, animal_class, animal_order, suborder, family, subfamily, genus, species)
+VALUES ('Aldabra Giant Tortoise', 'Animalia', 'Chordata', 'Reptilia', 'Testudines', 'Cryptodira', 'Testudinoidea', 'Testudinidae', 'Aldabrachelys', 'Aldabrachelys Gigantea');
